@@ -61,5 +61,5 @@ Stars.prototype.init = function(minDistance)
 
 Stars.NVERTICES = 667;
 Stars.NMATERIALS = 8;
-Stars.NPARTICLESYSTEMS = 6;
+Stars.NPARTICLESYSTEMS = 12;
 
