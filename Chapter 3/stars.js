@@ -22,10 +22,10 @@ Stars.prototype.init = function(minDistance)
 				(Math.random() * 2 - 1) * minDistance, 
 				(Math.random() * 2 - 1) * minDistance);
 		
-		if (vector.length() <  minDistance)
+		/*if (vector.length() <  minDistance)
 		{
 			vector = vector.setLength(minDistance);
-		}
+		}*/
 		
 		starsGeometry.vertices.push( new THREE.Vertex( vector ) );
 
