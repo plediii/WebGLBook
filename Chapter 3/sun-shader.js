@@ -12,7 +12,7 @@ Sun.prototype.init = function()
 	// Create a group to hold our sun mesh and light
 	var sunGroup = new THREE.Object3D();
 
-	var SUNMAP = "../images/lavatile.jpg";
+	var SUNMAP = "//fettss.arc.nasa.gov/media/fettss/images/Sunspots-1.tif.746x600_q85.jpg";
 	var NOISEMAP = "../images/cloud.png";
 	var uniforms = {
 
